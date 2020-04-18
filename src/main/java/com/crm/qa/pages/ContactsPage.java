@@ -43,7 +43,7 @@ public class ContactsPage extends TestBase {
 				+ "//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']")).click();
 	}
 	
-	
+	//test
 	public void createNewContact(String title, String ftName, String ltName, String comp){
 		Select select = new Select(driver.findElement(By.name("title")));
 		select.selectByVisibleText(title);
